@@ -2,8 +2,8 @@
 
 source 'https://rubygems.org'
 
-gem 'glazeui'
-gem 'gtk3'
+gem 'glazeui', git: 'https://github.com/vTinMan/glazeui', branch: 'main'
+gem 'rake'
 
 group :development, :test do
   gem 'rubocop'
